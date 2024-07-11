@@ -14,4 +14,4 @@ WORKDIR /app
 
 EXPOSE 8080
 
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "hello:app"] #hello is name of file run app, app is
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "app:app"] #hello is name of file run app, app is
